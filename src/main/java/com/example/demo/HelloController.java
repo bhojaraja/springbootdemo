@@ -14,7 +14,7 @@ public class HelloController {
 @GetMapping("/welcome")
 public String hello2()
 {
-	return " welcome to Jenkin Training .This is a sample restful Services";
+	return " welcome to Last Day of the Jenkin Training .This is a sample restful Services";
 }
 }
 
