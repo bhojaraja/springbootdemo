@@ -5,14 +5,14 @@ pipeline {
         stage('S1') {
             steps {
                 echo 'stage1'
-mvn package
+		mvn package
             }
         }
         stage('S2') {
             steps {
                 
                 echo 'stage2'
-java -jar pringbootdemo-0.0.1-SNAPSHOT.jar
+java -jar target/springbootdemo-0.0.1-SNAPSHOT.jar
             }
         }
     }
